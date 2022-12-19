@@ -1,0 +1,109 @@
+.wraper-account{
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 19px; */
+  /* padding-right: 19px; */
+  left: 0px;
+  /* position: absolute; */
+  margin-top: 8px;
+  width: 100%;
+  /* background-color: blueviolet; */
+  /* height: 100vh */
+}
+
+.saldo-account {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  /* background-color: cadetblue; */
+  /* width: 100%; */
+  flex: 1;
+}
+
+.saldo-ic {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.saldo-ic img {
+  width: 20%;
+}
+
+.saldo-ic p {
+  font-family: Montserrat-sm;
+  font-weight: 600;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+.saldo-nominal {
+  display: flex;
+  margin-top: 8px;
+}
+
+.saldo-nominal span {
+  color: #FFFFFF;
+  font-family: Montserrat-sm;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.saldo-nominal h3 {
+  margin-left: 6px;
+  color: #FFFFFF;
+  font-family: Montserrat-sm;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.cs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  /* width: 100%; */
+  /* background-color: red; */
+  flex: 1;
+}
+
+.cs-ic {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cs-ic img {
+  width: 15%;
+  margin-top: 3px;
+}
+
+.saldo-point {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  /* flex: 1; */
+  
+}
+
+.point-kamu {
+  display: flex;
+}
+
+.point-kamu h3 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.point-kamu h4 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFE600;
+}

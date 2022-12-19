@@ -1,0 +1,13 @@
+.left-content{
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .right-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 80px;
+  }

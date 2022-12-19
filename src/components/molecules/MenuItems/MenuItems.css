@@ -1,0 +1,20 @@
+.menu-items {
+  margin-top: 2px;
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+  /* background-color: burlywood; */
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-items img {
+  width: 40%;
+}
+
+.menu-items h3 {
+  font-family: Montserrat-sm;
+  font-weight: 500;
+  font-size: 9px;
+  color: #393939;
+}

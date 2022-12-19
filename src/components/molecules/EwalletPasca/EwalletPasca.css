@@ -1,0 +1,29 @@
+.wrapper-pascabayar-page h3{
+  color: #6A6A6A;
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.wrapper-pascabayar {
+  /* background-color: coral; */
+  overflow: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-pascabayar::-webkit-scrollbar{
+  display: none;
+}
+
+.wrapper-pascabayar::-moz-scrollbar{
+  display: none;
+}
+
+.wrapper-menu-ewallet{
+  display: flex;
+  flex-direction: row;
+  
+}

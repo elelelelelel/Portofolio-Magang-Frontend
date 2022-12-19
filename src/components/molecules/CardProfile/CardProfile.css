@@ -1,0 +1,56 @@
+.wrapper-card-profile{
+  background: #FFFFFF;
+  border-radius: 12px;
+  filter: drop-shadow(5px 5px 17px rgba(190, 203, 216, 0.25));
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+}
+
+.icon-card-profile{
+  background: rgba(43, 153, 255, 0.09);
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.icon-card-profile img{
+  /* width: 24px;
+  height: 24px; */
+  width: 50%;
+  
+}
+
+.text-card-profile{
+  display: flex;
+  flex: 1;
+  padding-right: 15px;
+  
+}
+
+.ket-card-profile{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.ket-card-profile h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+

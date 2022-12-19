@@ -1,0 +1,30 @@
+.nav-bar-bang-beli{
+  background: #2B99FF;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  max-width: 480px;
+  /* position: relative; */
+  padding-left: 16px;
+  justify-content: space-between;
+}
+
+.nav-bar-bang-beli img {
+  height: 24px;
+  margin-right: 32px;
+}
+
+.nav-bar-bang-beli h3 {
+  display: flex;
+  flex: 1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}

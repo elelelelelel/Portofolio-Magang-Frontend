@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Montserrat, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Montserrat,
+    monospace;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: local('Montserrat'), url(./assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  font-weight: bold;
+  src: local('Montserrat'), url(./assets/fonts/Montserrat-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-sm';
+  font-weight: 600;
+  src: local('Montserrat'), url(./assets/fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+

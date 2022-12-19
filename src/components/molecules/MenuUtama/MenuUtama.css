@@ -1,0 +1,27 @@
+.wrapper-menu-utama{
+  width: 100%;
+  /* width: 328px; */
+  height: 159px;
+  background: #F3F9FF;
+  box-shadow: 5px 5px 20px #BECBD8;
+  border-radius: 12px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-left: 10px;
+  /* padding-right: 21px; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.wrapper-menu-utama-atas{
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  margin-right: 10px;
+}
+.wrapper-menu-utama-bawah{
+  align-items: center;
+  margin-top: 15px;
+  display: flex;
+  margin-right: 10px;
+}

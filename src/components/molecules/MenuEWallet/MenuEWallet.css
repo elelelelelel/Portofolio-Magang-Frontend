@@ -1,0 +1,17 @@
+.menu-ewallet{
+  width: 84px;
+  height: 91px;
+  background: #F3F9FF;
+  box-shadow: 5px 5px 10px rgba(190, 203, 216, 0.8), -5px -5px 10px rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.menu-ewallet img{
+  width: 50%;
+}

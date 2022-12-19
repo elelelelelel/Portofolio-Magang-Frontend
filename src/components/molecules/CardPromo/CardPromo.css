@@ -1,0 +1,34 @@
+.card-promo{
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 310px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.card-promo img {
+  width: 100%;
+}
+
+.text-card-promo{
+  /* display: flex;
+  justify-content: center;   */
+  padding-left: 12px;
+  max-width: 100%;
+  padding-right: 12px;
+}
+
+.text-card-promo h3 {
+  font-family: Montserrat-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+
+  color: #000000;
+}

@@ -1,0 +1,52 @@
+.wrapper-promo-today{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-promo-today{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.wrapper-card-promo-today{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  flex-direction: row;
+}
+
+.wrapper-card-promo-today::-webkit-scrollbar{
+  display: none;
+}
+.wrapper-card-promo-today::-moz-scrollbar{
+  display: none;
+}
+
+
+.card-promo-today{
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.left-text-promo-today h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #6A6A6A;
+}
+.right-text-promo-today h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  
+  color: #2B99FF;
+}

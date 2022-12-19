@@ -1,0 +1,52 @@
+.field-detail-profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  /* background-color: blue; */
+}
+
+.d-ket {
+  /* background-color: bisque; */
+  display: flex;
+  /* flex: 1; */
+  /* max-width: 50%; */
+
+}
+
+.d-isi{
+  /* background-color: chartreuse; */
+  display: flex;
+  /* flex: 1; */
+  justify-content: space-between;
+  /* max-width: 50%; */
+}
+
+.d-ket h3 {
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height */
+  /* width: 50%; */
+
+
+  color: #000000;
+}
+
+.d-isi p {
+  /* width: 50%; */
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height */
+
+  margin-left: 5px;
+  color: #4d4d4d;
+}

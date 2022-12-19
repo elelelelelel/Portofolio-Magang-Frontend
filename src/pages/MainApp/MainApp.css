@@ -1,0 +1,22 @@
+.img-bg-top {
+  width: 100%;
+  z-index: -3;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+}
+
+.page {
+  background-color: blue;
+  background-color: #F3F9FF;
+  position: relative;
+  top: 0px;
+  max-width: 480px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 16px 80px;
+  box-sizing: border-box;
+  min-height: calc(1067px - 60px);
+  z-index: 1;
+}
+

@@ -1,0 +1,226 @@
+.BottomCheetContainer {
+  /* background-color: red; */
+  border-radius: 1.5em 1.5em 0 0;
+  padding: 1.5em 1em;
+  position: relative;
+  height: 150%;
+  /* max-width: 480px; */
+}
+
+.switch_Line {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX('-50%');
+  height: 4px;
+  width: 35px;
+  background-color: #cccccc;
+}
+
+.text_bs h3{
+  margin-bottom: 15px;
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+.container_bs {
+  background: rgba(43, 153, 255, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  /* height: 265px; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top_bs{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  justify-content: space-between;
+}
+
+.left_top_bs h3{
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+.left_top_bs h4{
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+.left_top_bs h2{
+  margin-bottom: 3px;
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+
+}
+
+.right_top_bs{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+  margin-left: 70px;
+  
+}
+
+.logo_pln_bs{
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+}
+
+.logo_pln_bs img{
+  width: 35%;
+  /* background-color: teal; */
+  display: flex;
+  /* flex: 1; */
+  /* margin-left: 40px; */
+}
+
+.total_tagihan{
+  margin-top: 14px;
+  /* background-color: thistle; */
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* padding-right: 14px; */
+}
+
+.total_tagihan h3{
+  /* background-color: yellow; */
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #000000;
+  margin-bottom: 5px;
+}
+.total_tagihan h2{
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+.bot_bs{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.jml{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.jml h3{
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total h3{
+  
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.method_bs select{
+  background-color: #FFFFFF;
+  border: 1px solid #6A6A6A;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat-sm;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+  
+}
+
+.btnBayar{
+  background: #2A99FF;
+  box-shadow: 10px 15px 50px rgba(43, 153, 255, 0.2);
+  border-radius: 20px;
+  height: 43px;
+  width: 100%;
+  border: none;
+}
